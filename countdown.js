@@ -1,4 +1,4 @@
-const countDownDate = new Date("December 25, 2021").getTime();
+const countDownDate = new Date("December 21, 2021").getTime();
 setInterval(() => {
         const now = new Date().getTime();
         const span = countDownDate - now;
