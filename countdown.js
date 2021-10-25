@@ -1,4 +1,4 @@
-const countDownDate = new Date("December 21, 2021").getTime();
+const countDownDate = new Date("2021-12-21T19:55:00-05:00").getTime();
 setInterval(() => {
         const now = new Date().getTime();
         const span = countDownDate - now;
@@ -8,7 +8,7 @@ setInterval(() => {
         const seconds = Math.floor((span % (1000 * 60)) / 1000);
         const milliseconds = Math.floor(span % 1000);
 
-        document.getElementById("countdown").innerHTML = "Time until touchdown: " +
+        document.getElementById("countdown").innerHTML = "Time until touchdown at JFK: " +
                 days + "d " +
                 hours + "h "  +
                 minutes + "m " +
